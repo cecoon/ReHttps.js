@@ -25,10 +25,10 @@
 
     var checkServerStatusCacheResult = function (httpsUrl, success) {
         var cacheResultAndCallSuccess = function () {
-            localStore.setItem(key, "1");
+            localStore.setItem(key, true);
             success();
         }, cacheResult = function () {
-            localStore.setItem(key, "0");
+            localStore.setItem(key, false);
         };
 
         checkServerStatus(httpsUrl, cacheResultAndCallSuccess, cacheResult);

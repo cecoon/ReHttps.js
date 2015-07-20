@@ -12,4 +12,6 @@ The only purpose of ReHttps.js is to increase the amount of https-traffic. If yo
 Simply load the script. Thats it.
 
 If you are a go-getter, you may also just do that:
+'''html
 <script src="https://cdn.rawgit.com/cecoon/ReHttps.js/master/release/ReHttps.min.js"></script>
+'''

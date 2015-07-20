@@ -3,9 +3,14 @@ module.exports = {
         report:'gzip',
         compress:true
     },
-    main: {
+    dist: {
         files: {
             'dist/ReHttps.min.js': ['src/ReHttps.js']
+        }
+    },
+    release: {
+        files: {
+            'release/ReHttps.min.js': ['src/ReHttps.js']
         }
     }
 };

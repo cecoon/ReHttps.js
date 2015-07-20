@@ -1,4 +1,4 @@
 module.exports ={
-  "tmp": ["<%= path.tmp %>"],
-  "dist": ["<%= path.dist %>"]
+  "dist": ["<%= path.tmp %>","<%= path.dist %>"],
+  "release": ["<%= path.tmp %>","<%= path.release %>"]
 };

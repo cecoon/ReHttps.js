@@ -2,7 +2,7 @@
 
 ReHttps.js is completely standalone and only 579 bytes of size. 
 <br/>
-Soon as ReHttps.js is loaded within a HTTP page it will test weather the current page supports https. If so it will redirect the user to the encrypted page.
+Soon as ReHttps.js is loaded within a HTTP page it will test if the current page supports https. If the page does it will redirect the user to the encrypted page.
 <br/>
 
 ##warning

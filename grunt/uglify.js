@@ -1,5 +1,7 @@
 module.exports = {
     options:{
+        report:'gzip',
+        compress:true
     },
     main: {
         files: {

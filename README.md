@@ -1,6 +1,6 @@
 # ReHttps.js - a client site approach to enforce a https connection.
 
-ReHttps.js is completely standalone and only 579 bytes of size. 
+ReHttps.js is completely standalone and only  562 Bytes (337 B (gzip)) of size. 
 <br/>
 Soon as ReHttps.js is loaded within a HTTP page it will test if the current page supports https. If the page does it will redirect the user to the encrypted page.
 <br/>

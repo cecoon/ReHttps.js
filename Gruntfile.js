@@ -9,5 +9,5 @@ module.exports = function(grunt) {
 
     require('load-grunt-config')(grunt, {data: options});
 
-    grunt.registerTask('dev', ['clean', 'jshint', 'uglify']);
+    grunt.registerTask('dist', ['clean', 'jshint', 'uglify']);
 };
